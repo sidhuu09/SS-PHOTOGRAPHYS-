@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SS PHOTOGRAPHY | Premium Photography</title>
+<style>
+*{box-sizing:border-box;scroll-behavior:smooth}
+:root{--gold:#e8bd68;--dark:#090909;--panel:#171717}
+body{margin:0;background:var(--dark);color:#fff;font-family:Arial,sans-serif}
+header{background:#101010;border-bottom:1px solid var(--gold);padding:16px;text-align:center;position:sticky;top:0;z-index:5}
+.logo{width:66px;height:66px;border:2px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:auto;color:var(--gold);font-size:25px;font-weight:bold;letter-spacing:2px}
+h1{color:var(--gold);font-size:25px;letter-spacing:3px;margin:10px 0 5px}
+header p{color:#ccc;font-size:12px;letter-spacing:2px}
+nav{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:15px}
+nav a{color:white;text-decoration:none;font-size:14px}
+nav a:hover{color:var(--gold)}
+.hero{min-height:430px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:35px 18px;background:linear-gradient(#0009,#000c),url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=85') center/cover}
+.hero small{color:var(--gold);letter-spacing:4px}
+.hero h2{font-size:clamp(32px,7vw,58px);margin:18px 0}
+.gold{color:var(--gold)}
+.hero p{line-height:1.8;color:#eee;max-width:520px}
+.btn,button{display:inline-block;background:var(--gold);color:#111;padding:13px 23px;border:0;border-radius:3px;font-weight:bold;text-decoration:none;cursor:pointer}
+section{padding:48px 16px;text-align:center}
+.section-title{font-size:28px;color:var(--gold);margin:0 0 10px}
+.sub{color:#bbb;margin-bottom:28px}
+.wrap{max-width:1050px;margin:auto}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px}
+.gallery img{width:100%;height:210px;object-fit:cover;border-radius:5px;border:1px solid #383026;transition:transform .25s}
+.gallery img:hover{transform:scale(1.025)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-top:28px}
+.card{background:var(--panel);padding:24px 18px;border:1px solid #55452b;border-radius:8px}
+.card h3{color:var(--gold)}
+.card p{color:#ccc;line-height:1.7}
+.price{font-size:13px;color:var(--gold)}
+#booking{background:#111}
+form{max-width:520px;margin:auto;text-align:left;background:var(--panel);padding:22px;border:1px solid #55452b;border-radius:8px}
+label{display:block;margin-top:13px;font-size:14px;color:#eee}
+input,select,textarea{width:100%;padding:13px;margin-top:7px;border:1px solid #555;border-radius:4px;background:#0c0c0c;color:white;font-size:15px}
+input:focus,select:focus,textarea:focus{outline:1px solid var(--gold)}
+form button{width:100%;margin-top:20px}
+.note{font-size:12px;color:#aaa;line-height:1.6}
+footer{padding:28px 15px;text-align:center;background:#080808;border-top:1px solid #453820;color:#bbb;font-size:13px}
+footer strong{color:var(--gold)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">SS</div>
+  <h1>SS PHOTOGRAPHY</h1>
+  <p>CAPTURING YOUR BEAUTIFUL MOMENTS</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#packages">Packages</a>
+    <a href="#booking">Book Now</a>
+  </nav>
+</header>
+
+<main>
+<div class="hero" id="home">
+  <small>WELCOME TO SS PHOTOGRAPHY</small>
+  <h2>Your Story, Our <span class="gold">Camera</span></h2>
+  <p>Photography • Videography • Wedding Events<br>
+  We capture your special moments forever.</p>
+  <a class="btn" href="#booking">BOOK YOUR EVENT</a>
+</div>
+
+<section id="gallery">
+  <div class="wrap">
+    <h2 class="section-title">Our Photo Gallery</h2>
+    <p class="sub">Beautiful moments, captured forever.</p>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Wedding photography">
+      <img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=600&q=80" alt="Wedding couple">
+      <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600&q=80" alt="Wedding event">
+      <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=600&q=80" alt="Portrait photography">
+      <img src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=600&q=80" alt="Event photography">
+      <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?auto=format&fit=crop&w=600&q=80" alt="Wedding celebration">
+    </div>
+    <p class="note">Demo gallery photos are shown here. Your own photos can be added later.</p>
+  </div>
+</section>
+
+<section id="packages">
+  <div class="wrap">
+    <h2 class="section-title">Our Services</h2>
+    <p class="sub">Choose the service for your special occasion.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Photography</h3>
+        <p>Portraits, family photos, birthdays and special moments.</p>
+        <div class="price">PACKAGE PRICE: CONTACT US</div>
+      </div>
+      <div class="card">
+        <h3>Videography</h3>
+        <p>Event coverage, cinematic videos and memorable highlights.</p>
+        <div class="price">PACKAGE PRICE: CONTACT US</div>
+      </div>
+      <div class="card">
+        <h3>Wedding Package</h3>
+        <p>Wedding photography and videography for your big day.</p>
+        <div class="price">PACKAGE PRICE: CONTACT US</div>
+      </div>
+      <div class="card">
+        <h3>Pre-Wedding</h3>
+        <p>Creative couple portraits and beautiful outdoor shoots.</p>
+        <div class="price">PACKAGE PRICE: CONTACT US</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="booking">
+  <div class="wrap">
+    <h2 class="section-title">Book Your Event</h2>
+    <p class="sub">Send us your event details.</p>
+    <form id="bookingForm">
+      <label for="customer">Customer Name *</label>
+      <input id="customer" name="customer" required placeholder="Enter your full name">
+
+      <label for="mobile">Mobile Number *</label>
+      <input id="mobile" name="mobile" type="tel" pattern="[0-9]{10}" maxlength="10" required placeholder="10-digit mobile number">
+
+      <label for="service">Select Service *</label>
+      <select id="service" name="service" required>
+        <option value="">Choose a service</option>
+        <option>Photography</option>
+        <option>Videography</option>
+        <option>Wedding Package</option>
+        <option>Pre-Wedding</option>
+      </select>
+
+      <label for="eventDate">Event Date *</label>
+      <input id="eventDate" name="eventDate" type="date" required>
+
+      <label for="venue">Event Location</label>
+      <input id="venue" name="venue" placeholder="Enter event location">
+
+      <label for="details">Additional Details</label>
+      <textarea id="details" name="details" rows="4" placeholder="Tell us about your event"></textarea>
+
+      <button type="submit">Submit Booking</button>
+      <p class="note">Note: This form is currently a demo. Booking details are not yet saved to a database or sent to the owner.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <strong>SS PHOTOGRAPHY</strong>
+  <p>Every picture tells a story.</p>
+  <p>© 2026 SS PHOTOGRAPHY. All rights reserved.</p>
+</footer>
+
+<script>
+document.getElementById('bookingForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  alert('Thank you! The booking form design is working, but online booking storage is not connected yet.');
+});
+</script>
+</body>
+</html>
